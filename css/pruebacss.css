@@ -1,0 +1,70 @@
+body {
+  background-image: url(../img/descarga.jpg);
+  color: white; }
+
+header {
+  background-color: black; }
+  header img {
+    border: 1px double white;
+    border-radius: 60px; }
+  header div {
+    padding: 5px; }
+  header h1 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: "roboto", sans-serif;
+    margin: 15px 15px; }
+  header h2 {
+    color: red;
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+    margin: 10px 150px 10px 10px; }
+
+main {
+  font-size: 15px;
+  font-style: italic;
+  font-family: "roboto", sans-serif;
+  margin: auto;
+  padding: 50px; }
+  main img {
+    height: 250px;
+    width: 250px;
+    border: 1px double white;
+    border-radius: 20px; }
+
+footer {
+  background-color: black;
+  font-size: 10px;
+  font-weight: 150;
+  text-align: center;
+  margin: auto; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+  footer a:hover {
+    background-color: green; }
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 10px; }
+    header img {
+      height: 200px;
+      border: 3px double white;
+      border-radius: 40px; }
+    header img:hover {
+      translate: 3px; }
+    header h1 {
+      font-size: 50px; }
+    header h2 {
+      font-size: 35px; }
+  main {
+    padding: 40px;
+    font-size: 22px; }
+    main iframe {
+      height: 450px;
+      width: 650px; }
+    main img {
+      height: 550px;
+      width: 750px; } }
